@@ -1,0 +1,113 @@
+#######################################################
+  ____      _     ____  _             _           _ 
+ / ___| ___| |_  / ___|| |_ __ _ _ __| |_ ___  __| |
+| |  _ / _ \ __| \___ \| __/ _` | '__| __/ _ \/ _` |
+| |_| |  __/ |_   ___) | || (_| | |  | ||  __/ (_| |
+ \____|\___|\__| |____/ \__\__,_|_|   \__\___|\__,_|
+  
+######################################################
+
+ # Who are you?
+  who
+
+ # What is the date?
+  date
+ 
+ # get help
+  help
+
+ # get info about a command
+  man 
+
+ #See what is in your directory
+  ls
+
+ #print to the screen
+  echo "what you want to print to screen"
+
+ #display contents of a file
+  cat filename
+
+ #concatonate and display contents of a file
+  cat filename1 filename2
+
+ #find file by name
+  find startingLocation -name nameOfFile
+
+ #find text within a filein directory
+  grep "text" directory
+
+ #find text within a file starting in directory
+  grep -r "text" .
+
+######################################################
+ _   _             _             _   _             
+| \ | | __ ___   _(_) __ _  __ _| |_(_) ___  _ __  
+|  \| |/ _` \ \ / / |/ _` |/ _` | __| |/ _ \| '_ \ 
+| |\  | (_| |\ V /| | (_| | (_| | |_| | (_) | | | |
+|_| \_|\__,_| \_/ |_|\__, |\__,_|\__|_|\___/|_| |_|
+                     |___/                         
+######################################################
+
+ #print working directory
+  pwd
+
+ #move to directory
+  cd path/to/directory
+
+ #move to parent directory
+  cd ..
+
+ #move to home
+  cd
+
+######################################################
+ _____ _ _        __  __             _        
+|  ___(_) | ___  |  \/  | __ _ _ __ (_)_ __   
+| |_  | | |/ _ \ | |\/| |/ _` | '_ \| | '_ \  
+|  _| | | |  __/ | |  | | (_| | | | | | |_) | 
+|_|   |_|_|\___| |_|  |_|\__,_|_| |_|_| .__(_)
+                                      |_|     
+######################################################
+ 
+ #make directory
+  mkdir directoryName
+
+ #make a file
+  touch fileName
+
+ #move file to a different directory
+  mv file destination
+
+ #rename file to newFileName
+  mv oldFileName newFileName
+  
+ #remove empty directory
+  rmdir directoryName
+
+ #remove file
+  rm fileName
+
+ #remove forcibly everything in a directory
+  rm -rf directoryName
+ 
+ #writes (overwrites) text to a file
+  echo "text" > file
+ 
+ #appends text to a file
+  echo "text" >> file
+
+ #concatonate and create a new file from file1 and file2
+  cat file1 file2 > newFile
+
+###################################################### 
+ _   _           __       _   _     _       _        
+| | | |___  ___ / _|_   _| | | |   (_)_ __ | | _____ 
+| | | / __|/ _ \ |_| | | | | | |   | | '_ \| |/ / __|
+| |_| \__ \  __/  _| |_| | | | |___| | | | |   <\__ \
+ \___/|___/\___|_|  \__,_|_| |_____|_|_| |_|_|\_\___/
+######################################################
+
+https://appletree.or.kr/quick_reference_cards/Unix-Linux/Linux%20Command%20Line%20Cheat%20Sheet.pdf
+
+https://www.educative.io/blog/bash-shell-command-cheat-sheet                                                                           
